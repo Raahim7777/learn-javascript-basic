@@ -1,4 +1,4 @@
-var isTrue = 0;
+var isTrue = -1;
 
 if(isTrue) {
     console.log('True')
@@ -7,3 +7,9 @@ if(isTrue) {
 }
 
 // Falsy and Truthy
+
+if( 'true' == true) {
+    console.log('Is true')
+}else {
+    console.log('Is False')
+}
