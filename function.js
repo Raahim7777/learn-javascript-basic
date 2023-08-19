@@ -1,11 +1,16 @@
+var total;
+
 function sum(a,b){
     if(!a || !b) {
         // validation
-        return;
+        total = 0;
+        // return;
+    }else {
+        total = a + b;
+        console.log('Worked')
     }
-    return a+b;
-    
 }
-let result = sum(4,6);
-console.log(result)
-console.log(sum(0, 2));
+
+sum();
+
+console.log(total);
