@@ -1,0 +1,16 @@
+{
+    "people": [
+        {
+            "name": "Sokheng",
+            "habbit": ["football", "Play video game"],
+            "email": "",
+            "age": 20
+        },
+        {
+            "name": "Sokhim",
+            "email": "sokhim@gmail.com",
+            "address": "",
+            "age": 20
+        }
+    ]
+}
