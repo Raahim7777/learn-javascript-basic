@@ -11,8 +11,8 @@ const person = {
     hobbies:["football","read","playgame","write"],
     height:1.80,
     weight:50,
-    fullName: function(){
-        return person.firstName + " "+ person.lastName
+    fullName: function() {
+        return this.firstName + " "+ this.lastName;
     }
 
 
@@ -20,3 +20,4 @@ const person = {
 }
 
 console.log(person.firstName,person.lastName, person.age,person.hobbies[0])
+console.log(person.fullName());
